@@ -1,0 +1,9 @@
+<?php
+session_start();
+?>
+<?php
+if($_SESSION['ses']==NULL)
+{
+	echo"<script>location='index.php'</script>";
+}
+?>

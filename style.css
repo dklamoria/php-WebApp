@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+.main{
+	height:1000px;
+	width:900px;
+	background:#A7BFDC;
+	margin:auto;
+}
+.header{
+	height:200px;
+	width:900px;
+	background:#0066CC;
+}
+.logo{
+	height:150px;
+	width:900px;
+}
+.logo img{
+	margin:40px 20px;
+}
+.menu{
+	height:50px;
+	width:900px;
+	border-top:1px solid #fff;
+}
+.menu ul li{
+	display:block;
+	float:left;
+	margin-top:10px;
+	padding:5px 30px;
+	border-right:1px solid #fff;
+}
+.menu ul li a{
+	text-decoration:none;
+	color:#fff;
+}
+.content{
+	height:700px;
+	width:900px;
+	box-shadow:0px 0px 10px #000;
+	
+}
+.create{
+	height:700px;
+	width:450px;
+	border-right:1px solid #fff;
+	float:left;
+}
+.delet{
+	height:700px;
+	width:400px;
+	float:right;
+}
